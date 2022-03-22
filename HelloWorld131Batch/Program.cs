@@ -14,6 +14,7 @@ namespace HelloWorld131Batch
             Console.WriteLine();
             Console.WriteLine("Making changes from remote master");
             Console.WriteLine("creating conflict from local");
+            Console.WriteLine("Creating conflict from remote");
             Console.ReadLine();
         }
     }
