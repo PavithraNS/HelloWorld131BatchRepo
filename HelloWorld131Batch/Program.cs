@@ -13,6 +13,7 @@ namespace HelloWorld131Batch
             Console.WriteLine("Welcome to RFP-131Batch");
             Console.WriteLine();
             Console.WriteLine("Making changes from remote master");
+            Console.WriteLine("Creating conflict from remote");
             Console.ReadLine();
         }
     }
