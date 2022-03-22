@@ -11,6 +11,7 @@ namespace HelloWorld131Batch
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to RFP-131Batch");
+            Console.WriteLine();
             Console.ReadLine();
         }
     }
