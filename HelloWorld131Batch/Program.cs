@@ -19,8 +19,8 @@ namespace HelloWorld131Batch
             Human human = new Human();
             human.Speek();
             Console.Clear();
-            SwapNumbers.SwapTwoNumbers();
-
+            //SwapNumbers.SwapTwoNumbers();
+            int res=Reverse.FindReverse();
             Console.ReadLine();
         }
     }
