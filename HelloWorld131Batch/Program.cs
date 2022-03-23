@@ -11,10 +11,16 @@ namespace HelloWorld131Batch
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to RFP-131Batch");
-            Console.WriteLine();
-            Console.WriteLine("Making changes from remote master");
-            Console.WriteLine("creating conflict from local");
-            Console.WriteLine("Creating conflict from remote");
+            //Console.WriteLine();
+            //Console.WriteLine("Making changes from remote master");
+            //Console.WriteLine("creating conflict from local");
+            //Console.WriteLine("Creating conflict from remote");
+            //className variable=new className();
+            Human human = new Human();
+            human.Speek();
+            Console.Clear();
+            SwapNumbers.SwapTwoNumbers();
+
             Console.ReadLine();
         }
     }
