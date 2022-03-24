@@ -11,20 +11,35 @@ namespace HelloWorld131Batch
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to RFP-131Batch");
-            //Console.WriteLine();
-            //Console.WriteLine("Making changes from remote master");
-            //Console.WriteLine("creating conflict from local");
-            //Console.WriteLine("Creating conflict from remote");
-            //className variable=new className();
-            //Human human = new Human();
-            //human.Speek();
-            //Console.Clear();
-            //Console.WriteLine("Enter number to reverse");
-            //int number = Convert.ToInt32(Console.ReadLine()); //1234
-            ////SwapNumbers.SwapTwoNumbers();
-            //int res=Reverse.FindReverse(number);
-            //Palindrome.FindPalindrome(number, res);
-            UserReplace.ReplaceUserName();
+            Console.WriteLine("1:Human\n2:SwapNumbers\n3:Reverse or palindrom\n4:UserReplace");
+            int option = Convert.ToInt32(Console.ReadLine()); //"1"
+            switch (option)
+            {
+                case 1:
+                    // code block
+                    Human human = new Human();
+                    human.Speek();
+                    break;
+                case 2:
+                    // code block
+                    SwapNumbers.SwapTwoNumbers();
+                    break;
+                case 3:
+                    // code block
+                    Console.WriteLine("Enter number to reverse");
+                    int number = Convert.ToInt32(Console.ReadLine());
+                    Reverse.FindReverse(number);
+                    break;
+                
+                case 4:
+                    // code block
+                    UserReplace.ReplaceUserName();
+                    break;
+                default:
+                    // code block
+                    Console.WriteLine("Please choose program/number between 1 to 5");
+                    break;
+            }
             Console.ReadLine();
         }
     }
