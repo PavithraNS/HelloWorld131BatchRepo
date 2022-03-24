@@ -16,14 +16,15 @@ namespace HelloWorld131Batch
             //Console.WriteLine("creating conflict from local");
             //Console.WriteLine("Creating conflict from remote");
             //className variable=new className();
-            Human human = new Human();
-            human.Speek();
-            Console.Clear();
-            Console.WriteLine("Enter number to reverse");
-            int number = Convert.ToInt32(Console.ReadLine()); //1234
-            //SwapNumbers.SwapTwoNumbers();
-            int res=Reverse.FindReverse(number);
+            //Human human = new Human();
+            //human.Speek();
+            //Console.Clear();
+            //Console.WriteLine("Enter number to reverse");
+            //int number = Convert.ToInt32(Console.ReadLine()); //1234
+            ////SwapNumbers.SwapTwoNumbers();
+            //int res=Reverse.FindReverse(number);
             //Palindrome.FindPalindrome(number, res);
+            UserReplace.ReplaceUserName();
             Console.ReadLine();
         }
     }
