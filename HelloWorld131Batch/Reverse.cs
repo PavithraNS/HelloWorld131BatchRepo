@@ -7,12 +7,11 @@ using System.Threading.Tasks;
 namespace HelloWorld131Batch
 {
     class Reverse
-    {
-        public static int FindReverse()
+    {     
+        public static int FindReverse(int number)
         {
+            int actualNumb = number;
             int reverse=0, remainder=0;
-            Console.WriteLine("Enter number to reverse");
-            int number = Convert.ToInt32(Console.ReadLine()); //1234
             while(number>0)
             {
                 remainder = number % 10; //4 3 2 1
@@ -20,6 +19,7 @@ namespace HelloWorld131Batch
                 number = number / 10;
             }
             Console.WriteLine("reverse number is:"+reverse);
+            Palindrome.FindPalindrome(actualNumb, reverse);
             return reverse;
         }
     }

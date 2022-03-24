@@ -19,8 +19,11 @@ namespace HelloWorld131Batch
             Human human = new Human();
             human.Speek();
             Console.Clear();
+            Console.WriteLine("Enter number to reverse");
+            int number = Convert.ToInt32(Console.ReadLine()); //1234
             //SwapNumbers.SwapTwoNumbers();
-            int res=Reverse.FindReverse();
+            int res=Reverse.FindReverse(number);
+            //Palindrome.FindPalindrome(number, res);
             Console.ReadLine();
         }
     }
