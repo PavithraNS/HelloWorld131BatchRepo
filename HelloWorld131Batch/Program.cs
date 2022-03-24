@@ -11,7 +11,7 @@ namespace HelloWorld131Batch
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to RFP-131Batch");
-            Console.WriteLine("1:Human\n2:SwapNumbers\n3:Reverse or palindrom\n4:UserReplace");
+            Console.WriteLine("1:Human\n2:SwapNumbers\n3:Reverse or palindrom\n4:UserReplace\n5:FlipCoin");
             int option = Convert.ToInt32(Console.ReadLine()); //"1"
             switch (option)
             {
@@ -34,6 +34,9 @@ namespace HelloWorld131Batch
                 case 4:
                     // code block
                     UserReplace.ReplaceUserName();
+                    break;
+                case 5:
+                    FlipCoin.FindFlipCoinCount();
                     break;
                 default:
                     // code block
